@@ -26,6 +26,6 @@ __Compress a readme.txt and executable run.sh file to stuff.tar.gz__
 
 __Compress a directory payload with executable run.sh file to blah.tar.gz__
 
-```python tar.py blah run.sh+x payload```
+```python tar.py blah payload/run.sh+x payload```
 
 Note that run.sh+x must come before the directory so that it is skipped when encountered
